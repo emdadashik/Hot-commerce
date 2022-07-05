@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section start */
+.navbar-brand img {
+    width: 120px;
+}
+.dotted-bacgrnd{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: bottom left;
+    margin-bottom:50px;
+}
+.carousel{
+    background-image: url("images/bg-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blck-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: white;
+}
+/* header section end */
+
+/* smartphone & laptop section start */
+.smartphone-area{
+    margin-bottom: 40px;
+}
+.card{
+    border-radius: 21px;
+    filter: drop-shadow(0px 10px 17.5px rgba(0,0,0,0.05));
+    background-color: #ffffff;
+    border: none;
+}
+/* smartphone & laptop section end */
+
+/* cetagories section start */
+.cetagories .box-s{
+    width: 180px;
+    margin-bottom: 12px;
+}
+.ml{
+    position: relative;
+    right: -69px;
+    bottom: -58px;
+}
+.box-s{
+    border-radius: 40px;
+    filter: drop-shadow(0px 6px 37px rgba(109,109,109,0.15));
+    background-color: #ffffff;
+}
+.col-md-6 img{
+    max-width: 100%;
+}
+/* cetagories section end */
